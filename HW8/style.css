@@ -1,0 +1,246 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0; 
+    background-color: rgb(236, 233, 233);
+}
+
+header {
+    background-color: rgb(63, 62, 62); 
+    color: white; 
+    padding: 5px; font-size: 20px;
+}
+
+.link_header {
+    color: white; 
+    text-decoration: none;
+    margin: 10px;
+}
+
+section {
+    background-image: url(https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1700); 
+    background-position: center center; 
+    background-size: cover; 
+    min-height: calc(100vh - 38.26px); 
+    background-attachment: fixed; 
+    display: flex;
+}
+
+.section_title {
+    font-size: 100px; 
+    color:white; 
+    display: flex; 
+    align-items: center; 
+    margin-left: 80px;
+}
+
+.main_text {
+    border-top: 3px solid rgb(218, 215, 215);
+    font-size: 18px; 
+    text-indent: 40px; 
+    text-align: justify; 
+    line-height: 25px;
+    margin: 0px 20px; 
+    padding-top: 10px;
+}
+
+.trainings_page {
+    border-top: 3px solid rgb(218, 215, 215); 
+    margin: 0 20px;
+}
+
+footer {
+    margin: 50px 20px 20px 20px; 
+    clear: both;
+    padding-top: 20px;
+}
+
+.footer_heading {
+    border-bottom: 3px solid rgb(218, 215, 215);
+    margin-bottom: 15px;
+}
+
+.footer_table {
+    width: 100%; 
+    background-color: rgb(255, 255, 255); 
+    table-layout: fixed;
+}
+
+.b1 {
+    background: rgb(180, 233, 180);
+    color: rgb(0, 0, 0);
+    border: 0;
+}
+
+.b1:hover {
+    background: rgb(77, 151, 77); 
+    color: rgb(255, 255, 255);
+}
+
+.b1:active {
+    box-shadow: inset 0 0 0 35px rgba(37, 74, 153, 0.8);
+}
+
+.b2:hover {
+    background: rgb(106, 199, 228);
+    color: rgb(255, 255, 255);
+}
+
+.cours {
+    color: rgb(45, 126, 231);
+    padding-top: 50px;
+}
+
+.cours:hover {
+    color: rgb(4, 138, 161);
+}
+
+td, th, tr{
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    padding-top: 50px;
+    text-align: left;
+}
+
+.b1, .b2 {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+
+}
+
+.b2 {
+    border: 1px solid  rgb(90, 175, 201);
+    color: rgb(45, 126, 231);
+    background: none;
+}
+
+h1, h2 {
+    text-transform: uppercase; 
+    text-align: center;
+    padding-top: 30px;
+}
+
+.button_course {
+    border: 0;
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin: 10px;
+    min-width: 150px;
+    background:rgb(255, 255, 255);
+    text-align: left;
+    border-radius: 5px;
+    text-indent: 5px;
+    color: rgb(45, 126, 231);
+    position: relative;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+}
+
+.button_course:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(106, 199, 228);
+    content: "";
+    transition: width 0.3s ease-out;
+}
+
+.button_course:hover {
+    box-shadow: 2px 2px white, 4px 4px rgb(184, 171, 171);
+    top: -4px;
+    left: -4px;
+}
+
+.button_course:hover:after,
+.button_course:focus:after {
+    width: 100%;
+}
+
+.button_registration {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end; 
+    margin-top: 50px;
+}
+
+.weight_text {
+    font-weight: 700;
+}
+
+.button_course_program {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedbacks_photo {
+    display: flex;
+}
+
+.feedbacks {
+    font-size: 35px;
+    padding: 100px 0 20px 0;
+    opacity: 0.7;
+}
+
+div.block_feedbacks {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 50px 0 50px;
+    margin-bottom: 50px;
+}
+
+.name_photo {
+    padding: 20px;
+}
+
+p {
+    opacity: 0.8;
+}
+
+.cope_text {
+	overflow: hidden;
+	line-height: 20px;
+}
+.cope_text p {
+    margin: 0 0 0 0;
+    line-height: 25px;
+}
+.line-clamp {
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+}
+
+div.link_feedbacks {
+    padding: 20px;
+}
+
+.link_feedbacks a {
+    text-decoration: none;
+    color: rgb(45, 126, 231);
+    padding: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
