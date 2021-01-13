@@ -65,28 +65,29 @@ footer {
     table-layout: fixed;
 }
 
-.b1 {
+.button_register {
     background: rgb(180, 233, 180);
     color: rgb(0, 0, 0);
     border: 0;
 }
 
-.b1:hover {
+.button_register:hover {
     background: rgb(77, 151, 77); 
     color: rgb(255, 255, 255);
 }
 
-.b1:active {
+.button_register:active {
     box-shadow: inset 0 0 0 35px rgba(37, 74, 153, 0.8);
 }
 
-.b2:hover {
+.button__program_of_course:hover {
     background: rgb(106, 199, 228);
     color: rgb(255, 255, 255);
+
 }
 
 .cours {
-    color: rgb(0, 217, 255);
+    color: rgb(45, 126, 231);
     padding-top: 50px;
 }
 
@@ -104,7 +105,11 @@ th {
     text-align: left;
 }
 
-.b1, .b2 {
+.table_button {
+    width: 250px;
+}
+
+.button_register, .button__program_of_course {
     width: 150px;
     height: 40px;
     font-size: 16px;
@@ -113,10 +118,13 @@ th {
 
 }
 
-.b2 {
+.button__program_of_course {
     border: 1px solid  rgb(90, 175, 201);
-    color: rgb(90, 175, 201);
+    color: rgb(45, 126, 231);
     background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1, h2 {
@@ -135,11 +143,9 @@ h1, h2 {
     background:rgb(255, 255, 255);
     text-align: left;
     border-radius: 5px;
-    text-indent: 5px;
-    color: rgb(106, 199, 228);
+    color: rgb(45, 126, 231);
     position: relative;
     cursor: pointer;
-    line-height: 1;
     text-decoration: none;
     top: 0;
     left: 0;
@@ -162,10 +168,10 @@ h1, h2 {
     left: -4px;
 }
 
-.button_course:hover:after,
+/* .button_course:hover:after,
 .button_course:focus:after {
     width: 100%;
-}
+} */
 
 .button_registration {
     display: flex; 
@@ -183,4 +189,9 @@ h1, h2 {
     flex-direction: column; 
     align-items: flex-end;
     margin-top: 10px;
+}
+
+.link_program_course {
+    text-decoration: none;
+    color:  rgb(45, 126, 231);
 }
