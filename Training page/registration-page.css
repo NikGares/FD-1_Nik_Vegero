@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, #e2dfdf, #d6d5d5);
+  font-family: "Roboto", sans-serif;      
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs__links {
+  margin: 0 auto;
+  margin-bottom: 5px;
+  order: 0;
+  white-space: nowrap;
+  background-color: #fff;
+  border: 1px solid #e3f2fd;
+  box-shadow: 0 2px 4px 0 #e3f2fd;
+}
+
+.tabs__links>a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 10px;
+  text-align: center;
+  color: #1976d2;
+}
+
+.tabs__links>a:hover {
+  background-color: rgba(227, 242, 253, 0.3);
+}
+
+.tabs>#content-1:target~.tabs__links>a[href="#content-1"],
+.tabs>#content-2:target~.tabs__links>a[href="#content-2"] {
+  background-color: #bbdefb;
+  cursor: default;
+}
+
+.tabs>div:not(.tabs__links) {
+  display: none;
+  order: 1;
+}
+
+.tabs>div:target {
+  display: block;
+}
+
+.login-page {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 720px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #48bdb7;
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px 0 rgb(136, 227, 255);
+  transition: 0.5s;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.form button:hover {
+  transform: translate(0,-3px);
+  box-shadow: 0 20px 40px 0 rgb(68, 207, 250);
+}
+
+.form button:active {}
+
+
+.form .message {
+  margin: 20px 0 0 0;
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.form .message a {
+  color: #2d8d88;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.register-form > input:required:invalid {
+  background: #f8d8dd;
+}
+
+input[type="reset" i] {
+  margin: 30px 0 20px 0;
+  background: #d3d3d3;
+  width: 120px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .2s linear;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+input[type="reset" i]:hover {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #57565c;
+}
+
+input:required:valid {
+  background: #d6fada;
+}
+
+.form .message a:hover {
+  cursor: pointer;
+}
+
+.links-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px
+}
+
+.links-home a{
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #57565c;
+}
+
+.links-home a:hover {
+  text-decoration: underline;
+}
