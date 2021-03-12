@@ -1,0 +1,92 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 28/02/2021 12:32
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-razor:before { content: "\f100"; }
+.flaticon-razor-1:before { content: "\f101"; }
+.flaticon-after-shave:before { content: "\f102"; }
+.flaticon-brush:before { content: "\f103"; }
+.flaticon-apron:before { content: "\f104"; }
+.flaticon-barber:before { content: "\f105"; }
+.flaticon-razor-2:before { content: "\f106"; }
+.flaticon-mirror:before { content: "\f107"; }
+.flaticon-hair-clipper:before { content: "\f108"; }
+.flaticon-razor-3:before { content: "\f109"; }
+.flaticon-seat:before { content: "\f10a"; }
+.flaticon-foam:before { content: "\f10b"; }
+.flaticon-wax:before { content: "\f10c"; }
+.flaticon-iron:before { content: "\f10d"; }
+.flaticon-shampoo:before { content: "\f10e"; }
+.flaticon-razor-4:before { content: "\f10f"; }
+.flaticon-barber-1:before { content: "\f110"; }
+.flaticon-barber-shop:before { content: "\f111"; }
+.flaticon-barber-2:before { content: "\f112"; }
+.flaticon-scissors:before { content: "\f113"; }
+.flaticon-perfume:before { content: "\f114"; }
+.flaticon-spray:before { content: "\f115"; }
+.flaticon-hairdryer:before { content: "\f116"; }
+.flaticon-spray-1:before { content: "\f117"; }
+.flaticon-barber-shop-1:before { content: "\f118"; }
+.flaticon-seat-1:before { content: "\f119"; }
+    
+    $font-Flaticon-razor: "\f100";
+    $font-Flaticon-razor-1: "\f101";
+    $font-Flaticon-after-shave: "\f102";
+    $font-Flaticon-brush: "\f103";
+    $font-Flaticon-apron: "\f104";
+    $font-Flaticon-barber: "\f105";
+    $font-Flaticon-razor-2: "\f106";
+    $font-Flaticon-mirror: "\f107";
+    $font-Flaticon-hair-clipper: "\f108";
+    $font-Flaticon-razor-3: "\f109";
+    $font-Flaticon-seat: "\f10a";
+    $font-Flaticon-foam: "\f10b";
+    $font-Flaticon-wax: "\f10c";
+    $font-Flaticon-iron: "\f10d";
+    $font-Flaticon-shampoo: "\f10e";
+    $font-Flaticon-razor-4: "\f10f";
+    $font-Flaticon-barber-1: "\f110";
+    $font-Flaticon-barber-shop: "\f111";
+    $font-Flaticon-barber-2: "\f112";
+    $font-Flaticon-scissors: "\f113";
+    $font-Flaticon-perfume: "\f114";
+    $font-Flaticon-spray: "\f115";
+    $font-Flaticon-hairdryer: "\f116";
+    $font-Flaticon-spray-1: "\f117";
+    $font-Flaticon-barber-shop-1: "\f118";
+    $font-Flaticon-seat-1: "\f119";
